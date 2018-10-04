@@ -11,3 +11,5 @@ gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
+gem "middleman-blog", "~> 4.0"
+
