@@ -1,0 +1,32 @@
+#prestations {
+  width: 80%;
+  margin: auto;
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: $brown;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+  }
+}
+.presta {
+  margin: auto;
+  min-height: 20vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: white;
+  border-radius: 3px;
+  h3 {
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border: solid 1px $pink;
+    color: $pink;
+    height: 40px;
+    line-height: 40px;
+  }
+  p { padding: 10px; }
+}
