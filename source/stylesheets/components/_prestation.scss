@@ -1,18 +1,18 @@
 #prestations {
+  margin: auto;
   h2 {
     font-size: 1.5em;
     text-align: center;
-    color: white;
-    background-color: $brown;
-    border: solid 1px;
+    color: black;
     border-radius: 3px;
     padding: 5px;
     font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 }
 .presta {
   margin: auto;
-  min-height: 20vh;
+  min-height: 40vh;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -28,7 +28,7 @@
     line-height: 40px;
     font-weight: bold;
   }
-  p { padding: 10px; }
+  p { padding: 0px 20px; }
   &:hover {
   }
 }
