@@ -25,3 +25,18 @@ html {font-size: 100%;}
     }
   }
 }
+@media all and (max-device-width: 480px)
+{
+  #home {
+    width: 90%;
+    .citation {
+      float: none;
+      width: 100%;
+      &.right, &.left {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
