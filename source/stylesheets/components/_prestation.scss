@@ -12,9 +12,9 @@
 }
 .presta {
   margin: auto;
-  min-height: 40vh;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 15px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background-color: white;
   border-radius: 3px;
@@ -28,8 +28,26 @@
     line-height: 40px;
     font-weight: bold;
   }
-  p { padding: 0px 20px; }
+  p {}
   &:hover {
+  }
+  a {
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    width: 50%;
+    margin: auto;
+    height: 35px;
+    line-height: 35px;
+    background-color: white;
+    border: solid 1px $pink;
+    color: $pink;
+    &:hover {
+      border: solid 1px $pink;
+      background-color: $pink;
+      color: white;
+      text-decoration: none;
+    }
   }
 }
 
@@ -40,6 +58,9 @@
       margin-bottom: 0px;
       margin-bottom: 25px;
       line-height: 1.3em;
+    }
+    a {
+      width: 90%;
     }
   }
 }

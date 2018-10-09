@@ -1,33 +1,33 @@
 html {font-size: 100%;}
-#home {
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; background-color: white; padding: 5px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
+a {
+  color: rgba(0,0,0,0.4);
+  font-weight: bold;
+  font-size: 16px;
+}
+.citation {
+  width: 45%;
+  font-size: 1.3em;
+  font-style: italic;
+  font-family: 'K2D', sans-serif;
+  &.right {
+    float: right;
+    margin: 0px 0px 0px 15px;
+  }
+  &.left {
+    float: left;
+  }
+}
+body {
   width: 60%;
   margin: auto;
   color: black;
   height: 100vh;
-  h1 { font-size: 2em; }
-  h2 { font-size: 1.5em; background-color: white; padding: 5px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
-  .citation {
-    width: 45%;
-    font-size: 1.3em;
-    font-style: italic;
-    font-family: 'K2D', sans-serif;
-    &.right {
-      float: right;
-      margin: 0px 0px 0px 15px;
-    }
-    &.left {
-      float: left;
-    }
-  }
 }
 @media all and (max-device-width: 480px)
 {
-  #home {
+  body {
     width: 90%;
     margin: auto;
     .citation {
