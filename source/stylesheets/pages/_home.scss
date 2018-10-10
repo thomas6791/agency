@@ -19,11 +19,12 @@ a {
     float: left;
   }
 }
-body {
+#home {
   width: 60%;
   margin: auto;
   color: black;
   height: 100vh;
+  padding-top: 60px;
 }
 @media all and (max-device-width: 480px)
 {

@@ -23,8 +23,10 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <%= partial "layouts/navbar" %>
     <%= yield %>
   </body>
+  <%= javascript_include_tag "navbar" %>
   <!-- Quantcast Choice. Consent Manager Tag -->
 <script type="text/javascript" async=true>
     var elem = document.createElement('script');
