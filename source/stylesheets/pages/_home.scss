@@ -1,5 +1,5 @@
 html {font-size: 100%;}
-h1 { font-size: 2em; }
+h1 { font-size: 2em; margin-top: 80px; text-align: center; }
 h2 { font-size: 1.5em; background-color: white; padding: 5px; text-align: center; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
 a {
   color: rgba(0,0,0,0.4);
@@ -19,12 +19,11 @@ a {
     float: left;
   }
 }
-#home {
+#home, #site {
   width: 60%;
   margin: auto;
   color: black;
   height: 100vh;
-  padding-top: 60px;
 }
 @media all and (max-device-width: 480px)
 {
