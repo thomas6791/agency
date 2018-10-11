@@ -14,13 +14,14 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 15px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background-color: white;
   border-radius: 3px;
   height: auto;
   h3 {
     font-size: 1.2em;
+    height: 2em;
+    line-height: 2em;
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -29,25 +30,32 @@
     line-height: auto;
     font-weight: bold;
   }
-  p {}
+  p {
+    padding: 0px 40px;
+  }
   &:hover {
   }
-  a {
-    display: block;
-    text-align: center;
-    border-radius: 3px;
-    width: 50%;
-    margin: auto;
-    height: 35px;
-    line-height: 35px;
-    background-color: white;
-    border: solid 1px $pink;
-    color: $pink;
-    &:hover {
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    a {
+      text-align: center;
+      padding: 0px 15px;
+      border-radius: 3px;
+      margin: auto;
+      height: 35px;
+      line-height: 35px;
+      background-color: white;
       border: solid 1px $pink;
-      background-color: $pink;
-      color: white;
-      text-decoration: none;
+      color: $pink;
+      &:hover {
+        border: solid 1px $pink;
+        background-color: $pink;
+        color: white;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -56,13 +64,14 @@
 {
   .presta {
     h3 {
-      margin-bottom: 0px;
       line-height: 1.3em;
-      height: 3.5em;
+    }
+    p {
+      padding: 0px 10px;
     }
     a {
-      width: 100%;
-      font-size: 0.6em;
+      width: auto;
+      font-size: 0.8em;
     }
   }
 }
