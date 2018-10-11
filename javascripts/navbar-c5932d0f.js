@@ -1,0 +1,1 @@
+function classToggle(){document.querySelectorAll(".Navbar__Items").forEach(function(e){return e.classList.toggle("Navbar__ToggleShow")})}document.querySelector(".Navbar__Link-toggle").addEventListener("click",classToggle);
