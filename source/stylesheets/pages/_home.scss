@@ -19,7 +19,7 @@ a {
     float: left;
   }
 }
-#home, #site {
+#home, #site, #seo {
   width: 60%;
   margin: auto;
   color: black;
@@ -27,7 +27,7 @@ a {
 }
 @media all and (max-device-width: 480px)
 {
-  #home {
+  #home, #site, #seo {
     width: 90%;
     margin: auto;
     .citation {
