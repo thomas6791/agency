@@ -1,6 +1,8 @@
 <div class="Navbar">
    <div class="Navbar__Link Navbar__Link-brand">
-      <%= link_to "Ruppert", "index.html" %>
+      <% link_to 'index.html' do %>
+        <%= image_tag 'logo-ruppert.png', alt: "logo ruppert agence webmarketing et référencement en Alsace et à Strasbourg", height: 30 %>
+      <% end %>
     </div>
     <div class="Navbar__Link Navbar__Link-toggle">
       <i class="fas fa-bars"></i>
@@ -13,18 +15,18 @@
       <%= link_to "Referencement", "referencement.html" %>
     </div>
     <div class="Navbar__Link">
-      Reseaux sociaux
+      <%= link_to "Reseaux sociaux", "#" %>
     </div>
     <div class="Navbar__Link">
-      Strategie
+      <%= link_to "Strategie", "#" %>
     </div>
     <div class="Navbar__Link">
-      Analyse
+      <%= link_to "Analyse", "#" %>
     </div>
   </nav>
   <nav class="Navbar__Items Navbar__Items--right">
     <div class="Navbar__Link">
-      Contact
+      <%= link_to "Contact", "contact.html" %>
     </div>
   </nav>
 </div>
