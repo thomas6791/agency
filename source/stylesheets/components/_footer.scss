@@ -1,0 +1,17 @@
+footer {
+  background-color: white;
+  width: 100%;
+  line-height: 2.5em;
+  font-family: 'Varela Round', sans-serif;
+  #footer-links {
+    display: flex;
+    font-size: 0.8em;
+    padding: 5px 25px;
+    p, a { margin: 0px; padding: 0px; }
+    address {
+      margin: 0px;
+      padding: 0px;
+      p, a { margin: 0px; padding: 0px; }
+    }
+  }
+}
